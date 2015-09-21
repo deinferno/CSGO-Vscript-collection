@@ -1,4 +1,7 @@
+
 ::point_hurt <- Entities.CreateByClassname("point_hurt");
+
+
 ::TakeDamage<-function(entity,damage,type){
 local newname=UniqueString("hurtme")
 local prevname=entity.GetName()

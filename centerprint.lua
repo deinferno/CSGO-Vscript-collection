@@ -1,4 +1,7 @@
+
+if (!("env_hudhint" in getroottable())){
 ::env_hudhint<-Entities.CreateByClassname("env_hudhint")
+}
 
 ::CenterPrintText<-function(player,text){
 env_hudhint.__KeyValueFromString("message",text)
