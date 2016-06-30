@@ -538,10 +538,6 @@ events_ids_translate[EVENT_HLTV_TITLE]<-"hltv_title";
 ::gameevents_proxy.__KeyValueFromString("event_name","player_use");
 ::gameevents_proxy.__KeyValueFromInt("range",0);
 
-if (!("HighestID" in getroottable())){
-::HighestID<-1
-}
-
 ::GameEventsCapturedPlayer<-null
 
 Think<-function(){
